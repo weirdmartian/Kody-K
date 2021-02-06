@@ -1,16 +1,27 @@
 ### Hi there 👋
 
-<!--
-**Kody-K/Kody-K** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3>
+    
+```python
+​
+import json
+from dataclasses import asdict, dataclass
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+@dataclass
+class Stack:
+    languages   : tuple[str, ...] = ("Python", "HTML", "CSS")
+    misc        : tuple[str, ...] = ("WebDev & SysAdmin", "Linux", "Pyrogram")
+    ongoing     : tuple[str, ...] = ("CyberSec Stuff", "C", "C++")
+
+    def serialize(self):
+        return json.dumps(asdict(self), indent=4)
+
+
+stack = Stack()
+print(stack.serialize())
+​
+```
+</h3>
+
+
