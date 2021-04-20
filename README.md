@@ -1,27 +1,13 @@
-### Hi there 👋
-
-<h3>
-    
-```python
-​
-import json
-from dataclasses import asdict, dataclass
-
-
-@dataclass
-class Stack:
-    languages   : tuple[str, ...] = ("Python", "HTML", "CSS")
-    misc        : tuple[str, ...] = ("WebDev & SysAdmin", "Linux", "Pyrogram")
-    ongoing     : tuple[str, ...] = ("CyberSec Stuff", "C", "C++")
-
-    def serialize(self):
-        return json.dumps(asdict(self), indent=4)
-
-
-stack = Stack()
-print(stack.serialize())
-​
+```c
+aboutme()
+{
+  name = "Kritarth Shankar";
+  interests = ["BugBounty", "Programming, "CTFs", "PwnMachines"]
+  languages = ["Python3", "C", "HTML"]
+  twitter_handle = "@kody_kritarth"
+  github_usrname = "Kody-K"
+  telegram_usrname = "@kody_k"
+}
 ```
-</h3>
 
 
