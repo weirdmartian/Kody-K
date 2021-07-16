@@ -2,9 +2,9 @@
 aboutme()
 {
   name = "Kritarth Shankar";
-  interests = ["BugBounty", "Programming", "CTFs"];
+  interests = ["Hardware", "Programming", "CTFs"];
   languages = ["Python3", "C", "HTML"];
-  learning = ["C", "Rust", "PenTesting"];
+  learning = ["C", "Assembly", "Rev-Eng"];
   twitter_handle = "@0xKodyK";
   github_usrname = "Kody-K";
   telegram_usrname = "@kody_k";
