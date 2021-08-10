@@ -3,7 +3,7 @@ aboutme()
 {
   name = "Kritarth Shankar";
   interests = ["Hardware", "Programming", "CTFs"];
-  languages = ["Python3", "C", "HTML"];
+  languages = ["Python3", "C", "Go"];
   learning = ["C", "Assembly", "Rev-Eng"];
   twitter_handle = "@0xKodyK";
   github_usrname = "Kody-K";
